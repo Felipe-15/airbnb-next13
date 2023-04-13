@@ -9,7 +9,7 @@ const Logo = () => {
       src="/images/logo.png"
       alt="Logo"
       className="
-            sm:hidden
+            hidden
             md:block
             cursor-pointer
         "
