@@ -16,7 +16,9 @@ const Heading = ({ title, center, subtitle }: Props) => {
                 text-neutral-500
                 mt-2
             "
-      ></div>
+      >
+        {subtitle}
+      </div>
     </div>
   );
 };
