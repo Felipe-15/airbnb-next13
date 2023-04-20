@@ -188,8 +188,8 @@ const Modal = ({
                     label={actionLabel}
                     onClick={handleSubmit}
                   />
-                  {footer}
                 </div>
+                {footer}
               </div>
             </div>
           </div>
