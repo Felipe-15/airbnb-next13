@@ -1,11 +1,16 @@
 "use client";
+import { User } from "@prisma/client";
 
 import Container from "../Container";
 import Logo from "./Logo";
 import Search from "./Search";
 import UserMenu from "./UserMenu";
 
-const Navbar = () => {
+interface Props {
+  currentUser?: User | null;
+}
+
+const Navbar = ({ currentUser }: Props) => {
   return (
     <header className="fixed w-full bg-white z-10 shadow-sm">
       <div
