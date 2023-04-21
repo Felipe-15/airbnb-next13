@@ -33,7 +33,7 @@ const Navbar = ({ currentUser }: Props) => {
           >
             <Logo />
             <Search />
-            <UserMenu />
+            <UserMenu currentUser={currentUser} />
           </div>
         </Container>
       </div>
