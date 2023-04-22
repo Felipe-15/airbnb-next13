@@ -3,6 +3,7 @@ import Container from "../Container";
 import { TbBeach } from "react-icons/tb";
 import { GiWindmill } from "react-icons/gi";
 import { MdOutlineVilla } from "react-icons/md";
+import CategoryBox from "../CategoryBox";
 
 export const categories = [
   {
@@ -36,7 +37,7 @@ const Categories = () => {
             "
       >
         {categories.map((category) => (
-          <CategorieBox key={category.label} {...category} />
+          <CategoryBox key={category.label} {...category} />
         ))}
       </div>
     </Container>
