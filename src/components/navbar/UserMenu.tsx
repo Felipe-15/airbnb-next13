@@ -79,7 +79,7 @@ const UserMenu = ({ currentUser }: Props) => {
             md:block
           "
           >
-            <Avatar />
+            <Avatar src={currentUser?.image} />
           </div>
         </div>
       </div>
